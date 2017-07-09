@@ -14,7 +14,7 @@ Copyright Andrei Mikrukov 2007
 Licensed under the terms of the GPL version 2, see:
 http://www.gnu.org/licenses/gpl.txt
 
-Provided without warranty, inluding any implied warrant of merchantability or fitness for purpose.
+Provided without warranty, including any implied warrant of merchantability or fitness for purpose.
 */
 
 add_filter( 'name_save_pre', 'seo_slugs', 0 );
