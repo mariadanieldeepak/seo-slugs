@@ -32,7 +32,7 @@ function seo_slugs( $slug ) {
 	// kill anything that is not a letter, digit, space or apostrophe
 	$seo_slug = preg_replace ( "/[^a-zA-Z0-9 \']/", "", $seo_slug );
 	// Turn it to an array and strip common words by comparing against c.w. array
-	$seo_slug_array = array_diff ( split( " ", $seo_slug ), seo_slugs_stop_words() );
+	$seo_slug_array = array_diff ( explode( " ", $seo_slug ), seo_slugs_stop_words() );
 	// Turn the sanitized array into a string
 	$seo_slug = join( "-", $seo_slug_array );
 
