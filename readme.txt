@@ -10,13 +10,13 @@ Removes common words like 'a', 'the', 'in' from post slugs to improve SEO.
 
 == Description ==
 
-The SEO Slugs Wordpress plugin removes common words like 'a', 'the', 'in' from post slugs to improve search engine optimization.
+The SEO Slugs WordPress plugin removes common words like 'a', 'the', 'in' from post slugs to improve search engine optimization.
 
 For example, when you publish a post with a title like this: 
 
 "What You Can Do Immediately For Higher Rankings",
 
-Wordpress automatically assigns a long filename to your post, called a post slug:
+WordPress automatically assigns a long filename to your post, called a post slug:
 
 /what-you-can-do-immediately-for-higher-rankings
 
@@ -34,5 +34,5 @@ The slug is generated on saving a post (so you get a chance to look at it before
 
 Now, when editing a post, give it a title and press Save and Continue Editing. The SEO Slugs plugin will generate a slug. If you edit it, the plugin will honor your slug and won't change it.
 
-If you find this plugin useful, please, link to this page: [SEO Slugs Wordpress Plugin](http://www.vretoolbar.com/news/seo-slugs-wordpress-plugin/ "Make URLs of your blog posts more search engine friendly!") 
+If you find this plugin useful, please, link to this page: [SEO Slugs WordPress Plugin](http://www.vretoolbar.com/news/seo-slugs-wordpress-plugin/ "Make URLs of your blog posts more search engine friendly!")
 
